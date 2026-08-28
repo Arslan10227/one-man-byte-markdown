@@ -69,7 +69,8 @@ fn check_file_association() -> bool {
 }
 
 #[tauri::command]
-fn set_file_association(#[cfg(not(windows))] _enable: bool, #[cfg(windows)] enable: bool) -> Result<(), String> {
+#[allow(unused_variables)]
+fn set_file_association(enable: bool) -> Result<(), String> {
     #[cfg(windows)]
     {
         use std::os::windows::process::CommandExt;
