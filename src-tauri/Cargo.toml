@@ -1,0 +1,20 @@
+[package]
+name = "onemanbyte-markdown"
+version = "1.0.0"
+description = "OneManByte - Markdown Desktop Application"
+authors = ["OneManByte"]
+edition = "2021"
+
+[lib]
+name = "onemanbyte_markdown_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tauri-plugin-fs = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

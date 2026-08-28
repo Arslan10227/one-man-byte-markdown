@@ -1,0 +1,41 @@
+{
+  "name": "onemanbyte-markdown",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.8.0",
+    "@codemirror/lang-markdown": "^6.3.2",
+    "@codemirror/language": "^6.10.8",
+    "@codemirror/search": "^6.5.9",
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/view": "^6.36.4",
+    "@tauri-apps/api": "^2.2.0",
+    "@tauri-apps/plugin-dialog": "^2.2.0",
+    "@tauri-apps/plugin-fs": "^2.2.0",
+    "highlight.js": "^11.11.1",
+    "katex": "^0.18.4",
+    "lucide-svelte": "^0.475.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "mermaid": "^11.17.2"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tauri-apps/cli": "^2.2.7",
+    "@types/katex": "^0.16.8",
+    "@types/markdown-it": "^14.1.2",
+    "@types/node": "^22.13.5",
+    "svelte": "^5.20.2",
+    "svelte-check": "^4.1.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1"
+  }
+}
