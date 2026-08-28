@@ -102,14 +102,14 @@ ShortDescription,8,Text,"Lightning-fast, lightweight markdown viewer & editor wi
 DevStudio,9,Text,OneManByte,OneManByte,OneManByte
 CopyrightTrademarkInformation,12,Text,© 2026 OneManByte. All rights reserved.,© 2026 OneManByte. All rights reserved.,© 2026 OneManByte. All rights reserved.
 AdditionalLicenseTerms,13,Text,MIT License (https://opensource.org/licenses/MIT),MIT License (https://opensource.org/licenses/MIT),MIT License (https://opensource.org/licenses/MIT)
-DesktopScreenshot1,100,Relative path (or URL to file in Partner Center),screenshots/main.png,screenshots/main.png,screenshots/main.png
-DesktopScreenshot2,101,Relative path (or URL to file in Partner Center),screenshots/dark_mode.png,screenshots/dark_mode.png,screenshots/dark_mode.png
-DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),screenshots/light_mode.png,screenshots/light_mode.png,screenshots/light_mode.png
-DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),screenshots/outline_view.png,screenshots/outline_view.png,screenshots/outline_view.png
-DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),screenshots/math_formulas.png,screenshots/math_formulas.png,screenshots/math_formulas.png
-DesktopScreenshot6,105,Relative path (or URL to file in Partner Center),screenshots/diagram_modal.png,screenshots/diagram_modal.png,screenshots/diagram_modal.png
-DesktopScreenshot7,106,Relative path (or URL to file in Partner Center),screenshots/diagram_zoomed.png,screenshots/diagram_zoomed.png,screenshots/diagram_zoomed.png
-DesktopScreenshot8,107,Relative path (or URL to file in Partner Center),screenshots/settings.png,screenshots/settings.png,screenshots/settings.png
+DesktopScreenshot1,100,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot2,101,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot3,102,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot4,103,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot5,104,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot6,105,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot7,106,Relative path (or URL to file in Partner Center),,,
+DesktopScreenshot8,107,Relative path (or URL to file in Partner Center),,,
 DesktopScreenshot9,108,Relative path (or URL to file in Partner Center),,,
 DesktopScreenshot10,109,Relative path (or URL to file in Partner Center),,,
 DesktopScreenshot11,110,Relative path (or URL to file in Partner Center),,,
@@ -384,7 +384,7 @@ SurfaceHubScreenshotCaption29,578,Text,,,
 SurfaceHubScreenshotCaption30,579,Text,,,
 StoreLogo720x1080,600,Relative path (or URL to file in Partner Center),,,
 StoreLogo1080x1080,601,Relative path (or URL to file in Partner Center),,,
-StoreLogo300x300,602,Relative path (or URL to file in Partner Center),src-tauri/icons/Square310x310Logo.png,src-tauri/icons/Square310x310Logo.png,src-tauri/icons/Square310x310Logo.png
+StoreLogo300x300,602,Relative path (or URL to file in Partner Center),,,
 OverrideLogosForWin10,603,True/False,,False,False
 StoreLogoOverride150x150,604,Relative path (or URL to file in Partner Center),,,
 StoreLogoOverride71x71,605,Relative path (or URL to file in Partner Center),,,

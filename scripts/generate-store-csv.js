@@ -50,15 +50,15 @@ const fieldValues = {
   'CopyrightTrademarkInformation': '© 2026 OneManByte. All rights reserved.',
   'AdditionalLicenseTerms': 'MIT License (https://opensource.org/licenses/MIT)',
 
-  // Screenshots (relative paths in Partner Center / disk)
-  'DesktopScreenshot1': 'screenshots/main.png',
-  'DesktopScreenshot2': 'screenshots/dark_mode.png',
-  'DesktopScreenshot3': 'screenshots/light_mode.png',
-  'DesktopScreenshot4': 'screenshots/outline_view.png',
-  'DesktopScreenshot5': 'screenshots/math_formulas.png',
-  'DesktopScreenshot6': 'screenshots/diagram_modal.png',
-  'DesktopScreenshot7': 'screenshots/diagram_zoomed.png',
-  'DesktopScreenshot8': 'screenshots/settings.png',
+  // Screenshots (kept blank for CSV import so text/captions/features import cleanly without path errors; images are dragged into the UI)
+  'DesktopScreenshot1': '',
+  'DesktopScreenshot2': '',
+  'DesktopScreenshot3': '',
+  'DesktopScreenshot4': '',
+  'DesktopScreenshot5': '',
+  'DesktopScreenshot6': '',
+  'DesktopScreenshot7': '',
+  'DesktopScreenshot8': '',
 
   'DesktopScreenshotCaption1': 'Real-Time Synchronized Markdown Editor & Preview Pane',
   'DesktopScreenshotCaption2': 'Dark Slate Theme with Syntax-Highlighted Code Blocks',
@@ -70,7 +70,7 @@ const fieldValues = {
   'DesktopScreenshotCaption8': 'Preferences & Native File Association Settings',
 
   // Logos
-  'StoreLogo300x300': 'src-tauri/icons/Square310x310Logo.png',
+  'StoreLogo300x300': '',
 
   // Features
   'Feature1': '⚡ Ultra-Fast Performance: Near-instant startup (<1s) and minimal RAM footprint powered by Svelte 5.',
