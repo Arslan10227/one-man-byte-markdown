@@ -69,7 +69,7 @@ const manifest = `<?xml version="1.0" encoding="utf-8"?>
     ProcessorArchitecture="x64" />
 
   <Properties>
-    <DisplayName>OneManByte - Markdown</DisplayName>
+    <DisplayName>OneManByte - Markdown Viewer &amp; Editor</DisplayName>
     <PublisherDisplayName>OneManByte</PublisherDisplayName>
     <Logo>Assets\\StoreLogo.png</Logo>
     <Description>Lightning-fast, lightweight markdown viewer and editor with live preview, KaTeX math, and Mermaid diagrams.</Description>
@@ -92,8 +92,8 @@ const manifest = `<?xml version="1.0" encoding="utf-8"?>
       Executable="onemanbyte-markdown.exe"
       EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements
-        DisplayName="OneManByte - Markdown"
-        Description="OneManByte Markdown Viewer and Editor"
+        DisplayName="OneManByte - Markdown Viewer &amp; Editor"
+        Description="OneManByte - Markdown Viewer &amp; Editor"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\\Square150x150Logo.png"
         Square44x44Logo="Assets\\Square44x44Logo.png">
