@@ -1,3 +1,5 @@
+use tauri::Manager;
+
 #[tauri::command]
 fn get_startup_args() -> Vec<String> {
     std::env::args()
@@ -67,7 +69,7 @@ fn check_file_association() -> bool {
 }
 
 #[tauri::command]
-fn set_file_association(enable: bool) -> Result<(), String> {
+fn set_file_association(#[cfg(not(windows))] _enable: bool, #[cfg(windows)] enable: bool) -> Result<(), String> {
     #[cfg(windows)]
     {
         use std::os::windows::process::CommandExt;
@@ -145,6 +147,13 @@ pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_fs::init())
         .plugin(tauri_plugin_dialog::init())
+        .setup(|app| {
+            // Maximize the main window on startup
+            if let Some(window) = app.get_webview_window("main") {
+                let _ = window.maximize();
+            }
+            Ok(())
+        })
         .invoke_handler(tauri::generate_handler![
             get_startup_args,
             read_file_content,
