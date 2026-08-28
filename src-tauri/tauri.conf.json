@@ -42,8 +42,8 @@
         "ext": ["md", "markdown", "mkd", "mdown"],
         "name": "Markdown Document",
         "description": "OneManByte Markdown Document",
-        "role": "Editor",
-        "icon": "icons/md_association_icon.ico"      }
+        "role": "Editor"
+      }
     ]
   }
 }
