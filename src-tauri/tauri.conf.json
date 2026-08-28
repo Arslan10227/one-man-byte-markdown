@@ -45,6 +45,13 @@
         "description": "OneManByte Markdown Document",
         "role": "Editor"
       }
-    ]
+    ],
+    "windows": {
+      "nsis": {
+        "displayLanguageSelector": false,
+        "installMode": "perMachine"
+      }
+    },
+    "publisher": "OneManByte"
   }
 }
